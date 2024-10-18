@@ -69,7 +69,7 @@ Desempenho e Escalabilidade: Seguindo boas práticas de desenvolvimento, o siste
 
 O projeto resultou em um sistema completo e eficiente para o gerenciamento de usuários, com uma interface moderna e funcionalidades robustas que permitem uma gestão fácil e rápida de dados.
 
-<img src="ProjectView.jpeg" alt="Project View" style="height: 800px; margin-right: 20px;">
+<img src="ProjectView.jpeg" alt="Project View">
 
 ## License
 
