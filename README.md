@@ -16,7 +16,7 @@
 
 ### Backend:
 
-<p align="center">
+<p>
 Laravel: O framework principal foi utilizado para lidar com a lógica do servidor e a manipulação de dados, além de garantir uma separação clara de responsabilidades com o padrão MVC.</br>
 
 Modelos: Os modelos foram utilizados para representar as entidades do banco de dados e para manipular a lógica de negócios associada a cada operação CRUD.</br>
@@ -30,7 +30,7 @@ Autenticação e Autorização: Foi implementado um sistema de autenticação pa
 
 ### Frontend:
 
-<p align="center">
+<p>
 Blade/HTML com JavaScript: No frontend, foram implementadas views com Blade (ou HTML simples, conforme o framework utilizado) para renderizar as páginas e JavaScript para adicionar interatividade, como manipulação dinâmica de tabelas e modais.</br>
 
 DataTables: Para a exibição dos dados dos usuários, foi utilizado o plugin DataTables para criar uma tabela dinâmica com paginação, ordenação e busca de usuários em tempo real.</br>
@@ -41,7 +41,7 @@ Bootstrap 5: O layout foi desenvolvido com Bootstrap 5, garantindo uma interface
 
 ### Banco de Dados:
 
-<p align="center">
+<p>
 MySQL: O sistema foi integrado a um banco de dados relacional para armazenar as informações dos usuários, utilizando consultas otimizadas para a manipulação dos dados.</br>
 
 Migrações e Seeds: Foram utilizadas migrações para versionamento da estrutura do banco de dados, facilitando a manutenção e evolução do projeto. Além disso, foram criados seeds para gerar dados de teste durante o desenvolvimento.</br>
@@ -49,13 +49,14 @@ Migrações e Seeds: Foram utilizadas migrações para versionamento da estrutur
 
 ### Validações e Segurança:
 
-<p align="center">
+<p>
 As validações no backend foram desenvolvidas utilizando as regras nativas do framework, garantindo que dados como e-mail, nome e data fossem inseridos corretamente.</br>
+
 O sistema foi projetado com atenção especial à segurança, implementando proteção contra CSRF, SQL Injection, e controle de acesso para garantir que apenas usuários autenticados pudessem acessar e manipular os dados.</br>
 </p>
 
 ## Destaques do Projeto:
-<p align="center">
+<p>
 Responsividade: Todo o sistema foi projetado com foco na responsividade, utilizando CSS e componentes do Bootstrap, para garantir uma ótima experiência do usuário em diferentes dispositivos, incluindo desktops, tablets e smartphones.</br>
 
 Validação Avançada: Foram implementadas mensagens de validação customizadas para facilitar o uso do sistema, informando os erros de entrada de forma clara e objetiva.</br>
