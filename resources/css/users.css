@@ -1,0 +1,154 @@
+/* Definindo fonte global */
+body {
+    font-family: 'Epilogue', sans-serif;
+    background-color: #ece9f1;
+    color: #380050; /* Cor roxa predominante */
+}
+
+/* Estilizando a tabela para bordas arredondadas */
+.dataTables_wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table.dataTable {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Melhorando o estilo dos botões */
+.btn-custom {
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+/* Botão de Adicionar mais destacado */
+#addUserBtn {
+    border-radius: 20px;
+    background-color: #FFEB3B;
+    color: #3C006A;
+    border: none;
+    transition: all 0.3s ease; 
+}
+
+/* Hover para o Botão adicionar usuário */
+#addUserBtn:hover {
+    background-color: #F3F3F3;
+    color: #3C006A; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+/* Centralizando e ajustando os botões da coluna Ações */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Tornando a coluna de Ações ajustável */
+.actions-column {
+    white-space: nowrap;
+    width: 1%;
+    text-align: center;
+}
+
+.other-column {
+    white-space: nowrap;
+    width: 10%;
+}
+
+td, th {
+    white-space: nowrap;
+}
+
+/* Estilo dos botões de ação */
+.edit-btn {
+    background-color: #380050;
+    color: white;
+    border: none;
+}
+
+.delete-btn {
+    background-color: #FFEB3B;
+    color: #380050;
+    border: none;
+}
+
+/* Estilizando o cabeçalho */
+h2 {
+    color: #380050;
+}
+
+/* Fundo personalizado */
+.custom-background {
+    background-color: #380050;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Cabeçalho da tabela */
+table.dataTable thead {
+    background-color: #380050 !important; /* Cor roxa */
+    color: white !important; /* Texto branco */
+}
+
+/* Cor de fundo das linhas da tabela */
+table.dataTable tbody tr {
+    background-color: #f9f9f9; /* Cor clara para linhas */
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #ececec; /* Cor para hover */
+}
+
+/* Rodapé da tabela */
+table.dataTable tfoot {
+    background-color: #380050 !important; /* Cor roxa no rodapé */
+    color: white !important; /* Texto branco */
+}
+
+/* Paginação */
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    background-color: #FFEB3B; /* Cor amarela */
+    color: #380050; /* Texto roxo */
+    border: none;
+    border-radius: 5px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #380050; /* Hover roxo */
+    color: white; /* Texto branco */
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #380050 !important; /* Cor roxa para o botão ativo */
+    color: white !important; /* Texto branco */
+}
+
+/* Campo de busca */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #380050;
+    border-radius: 5px;
+}
+
+/* Select de "Mostrar" */
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #380050;
+    border-radius: 5px;
+}
+
+.custom-container {
+    width: 50%;
+    max-width: 1440px; 
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .custom-container {
+        width: 100%;
+    }
+}
+
+
