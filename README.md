@@ -25,7 +25,6 @@ Controllers: Controladores foram criados para tratar as requisições HTTP, orga
 
 Validações: As validações de entrada de dados foram implementadas tanto no frontend quanto no backend, assegurando que os dados enviados fossem validados corretamente antes de serem persistidos no banco de dados.</br>
 
-Autenticação e Autorização: Foi implementado um sistema de autenticação para garantir que apenas usuários autorizados pudessem acessar as funções administrativas do sistema.</br>
 </p>
 
 ### Frontend:
@@ -44,7 +43,7 @@ Bootstrap 5: O layout foi desenvolvido com Bootstrap 5, garantindo uma interface
 <p>
 MySQL: O sistema foi integrado a um banco de dados relacional para armazenar as informações dos usuários, utilizando consultas otimizadas para a manipulação dos dados.</br>
 
-Migrações e Seeds: Foram utilizadas migrações para versionamento da estrutura do banco de dados, facilitando a manutenção e evolução do projeto. Além disso, foram criados seeds para gerar dados de teste durante o desenvolvimento.</br>
+Migrações: Foram utilizadas migrações para versionamento da estrutura do banco de dados, facilitando a manutenção e evolução do projeto.</br>
 </p>
 
 ### Validações e Segurança:
@@ -68,7 +67,7 @@ Desempenho e Escalabilidade: Seguindo boas práticas de desenvolvimento, o siste
 
 ## Conclusão
 
-O projeto resultou em um sistema completo, seguro, e eficiente para o gerenciamento de usuários, com uma interface moderna e funcionalidades robustas que permitem uma gestão fácil e rápida de dados.
+O projeto resultou em um sistema completo e eficiente para o gerenciamento de usuários, com uma interface moderna e funcionalidades robustas que permitem uma gestão fácil e rápida de dados.
 
 ## License
 
