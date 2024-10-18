@@ -233,7 +233,8 @@ function atualizarUsuario(userId, userData) {
             Swal.fire({
                 title: response.success ? "Sucesso" : "Opss",
                 text: response.message,
-                icon: response.success ? "success" : "error"
+                icon: response.success ? "success" : "error",
+                confirmButtonColor: '#380050'
             })
         },
         error: function(error) {
@@ -277,7 +278,8 @@ function deletarUsuario(userId)
             Swal.fire({
                 title: response.success ? "Sucesso" : "Opss",
                 text: response.message,
-                icon: response.success ? "success" : "error"
+                icon: response.success ? "success" : "error",
+                confirmButtonColor: '#380050'
             })
         },
         error: function(error) {
